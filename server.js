@@ -12,7 +12,6 @@ app.use(express.json()); // Enable JSON parsing if needed
 
 // ==================== CONSTANTS ====================
 const DEFAULT_USERNAME = process.env.SMARTBOX_USERNAME;
-const DEFAULT_PASSWORD = process.env.SMARTBOX_DEFAULT_PASSWORD;
 const SMARTBOX_CONFIG_FILE = './smartbox.json';
 
 // ==================== HELPER FUNCTIONS ====================
