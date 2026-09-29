@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Dark Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>Smartbox Alerts<br><span class="small">Last Updated: <span id="last_updated"></span></span></h1>
+            <button onclick="refreshData()">Refresh Data</button>
+        </div>
+
+
+        <div id="smartbox" class="dashboard-grid"></div>
+    </div>
+
+
+    <div class="alert-container">
+        <h3 class="alert-title" >Displaying alerts from last week until today<br>with the maximum of 100 alerts</h3>
+        <div class="slideshow-container">
+            <div id="alert-results"></div>
+            <div id="loading-alerts">
+                <p class="loading-alert">Loading...</p>
+            </div>
+
+        </div>
+        <br>
+        <div id="dots"></div>
+    </div>
+
+    <div id="loading">
+        <h1>Loading data.. </h1>
+    </div>
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "cikarang",
+        "ip": "100.90.80.1",
+        "password" : "admin12345"
+    },
+    {
+        "name": "samarinda",
+        "ip": "100.90.80.2",
+        "password" : "Admin#123"
+    },
+    {
+        "name": "medan",
+        "ip": "100.90.80.3",
+        "password" : "Admin#123"
+    },
+    {
+        "name": "makassar",
+        "ip": "100.90.80.4",
+        "password" : "Admin#123"
+    },
+    {
+        "name": "Freyabadi",
+        "ip": "100.90.70.1",
+        "password" : "Admin#12345"
+    }
+]

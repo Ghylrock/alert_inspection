@@ -1,0 +1,27 @@
+[
+    {
+        "name": "site1",
+        "ip": "0.0.0.0",
+        "password": "changeme"
+    },
+    {
+        "name": "site2",
+        "ip": "0.0.0.0",
+        "password": "changeme"
+    },
+    {
+        "name": "site3",
+        "ip": "0.0.0.0",
+        "password": "changeme"
+    },
+    {
+        "name": "site4",
+        "ip": "0.0.0.0",
+        "password": "changeme"
+    },
+    {
+        "name": "site5",
+        "ip": "0.0.0.0",
+        "password": "changeme"
+    }
+]
